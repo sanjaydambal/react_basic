@@ -20,10 +20,12 @@ function calculate(a, b) {
 }
  const message = "Hello World";
 function App() {
+  const cars = ['Ford', 'Chevy', 'Toyota'];
+  const engines = ['V8', 'V6', 'V12'];
   return (
     <div className="App">
       {/* <Array data = {vehicleOne} cal = {calculate} bike = "honda" wats = {message} /> */}
-     <BasicEvent isGoal = {false} />
+     <BasicEvent isGoal = {false}  car = {cars} engine = {engines} />
     </div>
   );
 }
