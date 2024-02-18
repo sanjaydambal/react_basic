@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       {/* <Array data = {vehicleOne} cal = {calculate} bike = "honda" wats = {message} /> */}
-     <BasicEvent/>
+     <BasicEvent isGoal = {false} />
     </div>
   );
 }
