@@ -1,6 +1,7 @@
 import React from'react';
-import BasicEvent from './components/BasicEvent';
+
 import './App.css';
+import BasicEvent from './components/BasicEvent';
 // import Array from './components/Array';
 const vehicleOne = {
   brand: 'Ford',
@@ -22,7 +23,7 @@ function App() {
   return (
     <div className="App">
       {/* <Array data = {vehicleOne} cal = {calculate} bike = "honda" wats = {message} /> */}
-      <BasicEvent />
+     <BasicEvent/>
     </div>
   );
 }

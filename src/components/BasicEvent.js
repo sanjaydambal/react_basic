@@ -1,15 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 const BasicEvent = () => {
-  const shoot = () => {
-    alert('Goal!');
-  };
-
+    const handleClick = (a,b) => {
+        alert(b.type)
+    }
   return (
     <div>
-      <button onClick={shoot}>Take the shot!</button> 
+      <button onClick={(event) =>handleClick("Goal",event)}>Shoot</button>
     </div>
-  );
-};
+  )
+}
 
-export default BasicEvent;
+export default BasicEvent
